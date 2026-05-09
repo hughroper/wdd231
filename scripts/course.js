@@ -11,7 +11,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -24,7 +24,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -36,7 +36,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -62,7 +62,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -79,4 +79,56 @@ const courses = [
         completed: false
     }
 ]
+
+const courseCards = document.querySelector("#course-cards");
+const totalCredits = document.querySelector("#total-credits")
+
+function displayCourses(filteredCourses) {
+    courseCards.innerHTML = "";
+
+    filteredCourses.forEach(course => {
+        const card = document.createElement("div");
+
+        card.textContent = `${course.subject} ${course.number}`;
+
+        if (course.completed) {
+            card.classList.add("completed");
+        }
+
+        courseCards.appendChild(card);
+
+    });
+
+    const credits = filteredCourses.reduce((total, course) => {
+
+        return total + course.credits;
+
+    }, 0);
+
+    totalCredits.textContent = credits;
+
+}
+
+displayCourses(courses);
+
+document.querySelector("#all").addEventListener("click", () => {
+    displayCourses(courses);
+})
+
+document.querySelector("#wdd").addEventListener("click", () => {
+    const wddCourses = courses.filter(course =>
+        course.subject === "WDD"
+    );
+
+    displayCourses(wddCourses);
+})
+
+document.querySelector("#cse").addEventListener("click", () => {
+    const cseCourses = courses.filter(course =>
+        course.subject === "CSE"
+    );
+
+    displayCourses(cseCourses);
+
+})
 
