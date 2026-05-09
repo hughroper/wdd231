@@ -1,6 +1,7 @@
 body {
     font-family: "Source Sans 3", sans-serif;
     font-weight: 400;
+    background-color: #222;
 }
 
 .navigation {
@@ -14,4 +15,197 @@ body {
 
 .completed {
     color: red;
+}
+
+button#menu {
+    width: 48px;
+    height: 48px;
+    appearance: none;
+    border: none;
+    background-color: #004997;
+    color: #fff;
+    margin: 0x;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "Ⓧ";
+}
+
+.navigation {
+    background-color: #004997;
+}
+
+.navigation a {
+    color: #e8f2fb;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #002a57;
+    border-top: 1px solid #0162c9;
+    text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    color: #fff;
+    background-color: #002a57;
+}
+
+header {
+    padding: 1rem;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+header img {
+    /* position: relative;
+    top: rem;
+    left: rem; */
+    border: 1px solid red;
+}
+
+header span {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    /* display: inline-block; */
+    border: 1px solid red;
+}
+
+header #menu {
+    border: 1px solid red;
+}
+
+main {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+main h1 {
+    padding: 0 0 0.5rem 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h2 {
+    background-color: #004997;
+    color: #fff;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+section {
+    background-color: #e8f2fb;
+}
+
+#photo p {
+    text-align: center;
+}
+
+#photo p img {
+    width: 100%;
+    max-width: 320px;
+}
+
+section p,
+section div {
+    padding: 1em;
+    margin-top: 0px;
+}
+
+#courses {
+    padding: 0;
+}
+
+#courses p {
+    margin: 0;
+}
+
+.course-buttons button {
+    background-color: #002a57;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.course-buttons button:hover {
+    background-color: #004997;
+}
+
+#course-cards {
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+}
+
+#course-cards div {
+    background-color: #004997;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem 0 0 0;
+    border-radius: 0.2rem;
+}
+
+#course-cards div:hover {
+    background-color: #002a57;
+}
+
+#course-cards div:first-child {
+    margin-top: 0;
+}
+
+#course-cards div.completed {
+    background-color: #666;
+}
+
+footer {
+    margin: 0;
+    padding: 1rem 1rem 0 1rem;
+    background-color: #004997;
+}
+
+.social {
+    margin: 0;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.social a {
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+    background-color: #e8f2fb;
+    border: 1px solid #afd6f8;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.social a img {
+    width: 100%;
+}
+
+.social a:hover {
+    background-color: #fff;
+    border-color: #002a57;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
 }
