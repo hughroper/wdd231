@@ -1,7 +1,5 @@
 
 
-
-
 const courses = [
     {
         subject: 'CSE',
@@ -81,6 +79,4 @@ const courses = [
         completed: false
     }
 ]
-
-
 
