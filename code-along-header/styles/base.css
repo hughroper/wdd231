@@ -1,0 +1,100 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+    color: #002566;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.4rem;
+    color: #002566;
+}
+
+.navigation {
+    display: none;
+    color: #002566;
+}
+
+.navigation ul li {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation a {
+    color: #002566;
+    display: block;
+    height: 44px;
+    line-height: 2.4rem;
+    text-decoration: none;
+    border-bottom: 4px solid #fff;
+}
+
+.navigation a:hover {
+    border-bottom: 4px solid #00aeef;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    appearance: none;
+    color: #002566;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+footer {
+    background-color: #eee;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}

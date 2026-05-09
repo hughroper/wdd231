@@ -1,0 +1,13 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: flex;
+    flex-direction: column;
+}
