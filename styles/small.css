@@ -63,7 +63,7 @@ header {
     padding: 1rem;
     background-color: #fff;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 3fr 1fr;
     gap: 0;
 }
 
@@ -71,7 +71,6 @@ header img {
     /* position: relative;
     top: rem;
     left: rem; */
-    border: 1px solid red;
 }
 
 header span {
@@ -79,16 +78,14 @@ header span {
     font-weight: 400;
     text-align: center;
     /* display: inline-block; */
-    border: 1px solid red;
 }
 
-header #menu {
-    border: 1px solid red;
-}
+header #menu {}
 
 main {
     padding: 1rem;
     background-color: #fff;
+
 }
 
 main h1 {
@@ -109,6 +106,12 @@ h2 {
 
 section {
     background-color: #e8f2fb;
+}
+
+#about p {
+    line-height: 1.6em;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 #photo p {
