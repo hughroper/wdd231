@@ -140,6 +140,12 @@ section div {
     text-align: center;
 }
 
+.course-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
 .course-buttons button {
     background-color: #002a57;
     border: none;
