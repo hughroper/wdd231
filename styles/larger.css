@@ -5,7 +5,6 @@
     main,
     footer {
         max-width: 1200px;
-        margin: 0 auto;
     }
 
     header button {
@@ -14,12 +13,22 @@
 
     .navigation {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+        border-left: 1px solid #0162c9;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
-    .navigation {}
-
-    .navigation.open {}
+    .navigation a {
+        margin: 0;
+        border-right: 2px solid #002a57;
+        border-left: 1px solid #0162c9;
+        border-bottom: none;
+        border-top: none;
+    }
 
     .about-photo {
         display: grid;
