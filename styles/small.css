@@ -135,6 +135,7 @@ section div {
 
 #courses p {
     margin: 0;
+    text-align: center;
 }
 
 .course-buttons button {
