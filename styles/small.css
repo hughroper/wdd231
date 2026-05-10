@@ -13,10 +13,6 @@ body {
     flex-direction: column;
 }
 
-.completed {
-    color: red;
-}
-
 button#menu {
     width: 48px;
     height: 48px;
@@ -174,6 +170,13 @@ section div {
 
 #course-cards div.completed {
     background-color: #666;
+}
+
+.completed span {
+    background-color: #666;
+    width: 0.75rem;
+    height: 0.75rem;
+    display: inline-block;
 }
 
 footer {
