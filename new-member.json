@@ -8,22 +8,22 @@
             "name": "Padre Roper",
             "gender": "Male",
             "birthdate": "1980-01-01"
-        }
+        },
         {
             "name": "Madre Roper",
             "gender": "Female",
             "birthdate": "1980-02-02"
-        }
+        },
         {
             "name": "Large Roper",
             "gender": "Female",
             "birthdate": "1995-01-01"
-        }
+        },
         {
             "name": "Medium Roper",
             "gender": "Female",
             "birthdate": "2000-01-01"
-        }
+        },
         {
             "name": "Small Roper",
             "gender": "Male",
