@@ -1,0 +1,33 @@
+{
+    "familiy_name": "Roper",
+    "date_moved_in": "2026-05-12",
+    "family_number_of_people": 5,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Padre Roper",
+            "gender": "Male",
+            "birthdate": "1980-01-01"
+        }
+        {
+            "name": "Madre Roper",
+            "gender": "Female",
+            "birthdate": "1980-02-02"
+        }
+        {
+            "name": "Large Roper",
+            "gender": "Female",
+            "birthdate": "1995-01-01"
+        }
+        {
+            "name": "Medium Roper",
+            "gender": "Female",
+            "birthdate": "2000-01-01"
+        }
+        {
+            "name": "Small Roper",
+            "gender": "Male",
+            "birthdate": "2005-01-01"
+        }
+    ]
+}
