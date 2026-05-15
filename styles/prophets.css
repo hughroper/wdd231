@@ -1,5 +1,78 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #002a57;
+}
+
+main {
+    background-color: #e8f2fb;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+section {
+    border: 2px solid #ccc;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+section img {
+    width: 100%;
+}
+
+section h2 {
+    margin: 0;
+    color: #0162c9;
+}
+
+section p {
+    line-height: 0.6em;
+}
+
 #cards {
     display: grid;
-    grid-gap: 0.5rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+footer {
+    margin: 0;
+    padding: 1rem 1rem 0 1rem;
+    background-color: #004997;
+    color: #fff;
+}
+
+.social {
+    margin: 0;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.social a {
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+    background-color: #e8f2fb;
+    border: 1px solid #afd6f8;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.social a img {
+    width: 100%;
+}
+
+.social a:hover {
+    background-color: #fff;
+    border-color: #002a57;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
 }

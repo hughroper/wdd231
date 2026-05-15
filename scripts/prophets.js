@@ -28,7 +28,7 @@ const displayProphets = (prophets) => {
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
+        portrait.setAttribute('height', 'inherit');
 
 
         card.appendChild(fullName);
@@ -40,3 +40,10 @@ const displayProphets = (prophets) => {
 
     });
 }
+
+const currentYear = document.querySelector("#currentYear");
+const today = new Date();
+
+currentYear.innerHTML = `${today.getFullYear()}`;
+
+document.getElementById("lastModified").innerHTML = document.lastModified;
