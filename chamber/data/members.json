@@ -1,65 +1,65 @@
 [
     {
-        "name": "Company Name 1",
-        "address": "Company Address",
-        "phone": "Company Phone Number",
-        "website": "images/wr-chamber-logo.png",
-        "image": "company1.webp",
+        "name": "White Rock Visitor Center",
+        "address": "115 NM-4, White Rock, NM 87547",
+        "phone": "+15056723183",
+        "website": "https://www.visitlosalamos.org/Plan-Your-Visit/Los-Alamos-White-Rock-Visitor-Centers",
+        "image": "logo-1.png",
         "membershipLevel": 1,
-        "description": "Description"
+        "description": "White Rock Visitor Center is a local information hub offering maps, exhibits, and guidance for exploring White Rock, Los Alamos, and nearby outdoor attractions."
     },
     {
-        "name": "Company Name 2",
-        "address": "Company Address",
-        "phone": "Company Phone Number",
-        "website": "images/wr-chamber-logo.png",
-        "image": "company2.webp",
+        "name": "Pig & Fig Cafe",
+        "address": "11 Sherwood Blvd, White Rock, NM 87547",
+        "phone": "+15056236062",
+        "website": "https://www.pigandfigcafe.com",
+        "image": "logo-2.png",
         "membershipLevel": 2,
-        "description": "Description"
+        "description": "Pig & Fig Cafe is a cozy White Rock café and bakery known for gourmet comfort food, French-style desserts, and locally loved breakfast and lunch offerings."
     },
     {
-        "name": "Company Name 3",
-        "address": "Company Address",
-        "phone": "Company Phone Number",
-        "website": "images/wr-chamber-logo.png",
-        "image": "company3.webp",
+        "name": "JR's BB+",
+        "address": "NM-4, White Rock, NM 87547",
+        "phone": "+15059273467",
+        "website": "https://www.facebook.com/JRsbbsbest/",
+        "image": "logo-3.png",
         "membershipLevel": 3,
-        "description": "Description"
+        "description": "JR’s BB+ is a popular White Rock food truck serving New Mexican breakfast burritos, chile, and quick comfort food loved by locals."
     },
     {
-        "name": "Company Name 4",
-        "address": "Company Address",
-        "phone": "Company Phone Number",
-        "website": "images/wr-chamber-logo.png",
-        "image": "company4.webp",
+        "name": "Anytime Fitness",
+        "address": "RQHV+32 White Rock, New Mexico",
+        "phone": "+15053933933",
+        "website": "https://www.anytimefitness.com/locations/white-rock-new-mexico-5371",
+        "image": "logo-4.png",
         "membershipLevel": 1,
-        "description": "Description"
+        "description": "Anytime Fitness is a 24/7 gym in White Rock offering cardio equipment, strength training, personal coaching, and worldwide access to Anytime Fitness locations. "
     },
     {
-        "name": "Company Name 5",
-        "address": "Company Address",
-        "phone": "Company Phone Number",
-        "website": "images/wr-chamber-logo.png",
-        "image": "company5.webp",
+        "name": "Del Norte Credit Union",
+        "address": "40 Rover Blvd, White Rock, NM 87547",
+        "phone": "+15054555228",
+        "website": "https://www.dncu.com/locations-atms/white-rock-branch/",
+        "image": "logo-5.png",
         "membershipLevel": 2,
-        "description": "Description"
+        "description": "Del Norte Credit Union is a community-focused credit union offering personal banking, loans, and financial services to residents of northern New Mexico."
     },
     {
-        "name": "Company Name 6",
-        "address": "Company Address",
-        "phone": "Company Phone Number",
-        "website": "images/wr-chamber-logo.png",
-        "image": "company6.webp",
+        "name": "Enterprise Bank & Trust",
+        "address": "77 Rover Blvd, White Rock, NM 87547",
+        "phone": "+15056625171",
+        "website": "https://www.enterprisebank.com/locations/white-rock",
+        "image": "logo-6.png",
         "membershipLevel": 3,
-        "description": "Description"
+        "description": "Enterprise Bank & Trust is a regional community bank offering personal banking, business services, mortgages, and financial planning for northern New Mexico residents and businesses."
     },
     {
-        "name": "Company Name 7",
-        "address": "Company Address",
-        "phone": "Company Phone Number",
-        "website": "images/wr-chamber-logo.png",
-        "image": "company7.webp",
+        "name": "White Rock Toys and Gaming",
+        "address": "108 Longview Dr, White Rock, NM 87547",
+        "phone": "+15057098496",
+        "website": "https://www.facebook.com/whiterocktoysandgaming/",
+        "image": "logo-7.png",
         "membershipLevel": 1,
-        "description": "Description"
+        "description": "White Rock Toys & Gaming is a locally owned hobby and game shop offering toys, collectibles, trading card games, tabletop gaming, and community play space for all ages. "
     }
 ]

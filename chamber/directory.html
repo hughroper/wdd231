@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White Rock, New Mexico | Chamber of Commerce</title>
@@ -26,6 +27,9 @@
     <meta property="og:description" content="">
     <meta property="og:url" content="https://hughroper.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://hughroper.github.io/wdd231/chamber/images/wr-chamber-logo.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
 </head>
 
 <body>
@@ -55,9 +59,14 @@
 
     <main>
 
-        <h1>Directory</h1>
+        <h1>Business Member Directory</h1>
 
-        <section id="members"></section>
+        <div class="grid-menu">
+            <button id="grid" class="grid" aria-label="Grid"><i class="bi bi-grid-3x3-gap-fill"></i></button>
+            <button id="list" class="list" aria-label="List"><i class="bi bi-list-ul"></i></button>
+        </div>
+
+        <section id="members" class="grid"></section>
 
     </main>
 

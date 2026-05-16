@@ -37,13 +37,13 @@
 
     .navigation {
         height: 24px;
-        padding: 1.5rem 0 0 0;
+        padding: 1rem 0 0 0;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         gap: 0;
-        background-color: #fff;
+        background-color: #e8f2fb;
         color: #0162c9;
     }
 
@@ -53,16 +53,18 @@
         padding: 0 0 0.25rem 0;
         border-right: none;
         border-left: none;
-        border-bottom: 4px solid #fff;
+        border-bottom: 4px solid #e8f2fb;
         border-top: none;
     }
 
     .navigation a:hover,
     .navigation a.active {
         color: #002a57;
-        background-color: #fff;
-        border-bottom: 4px solid #afd6f8;
+        background-color: #e8f2fb;
+        border-bottom: 4px solid #0162c9;
     }
+
+
 
 
     footer div {
