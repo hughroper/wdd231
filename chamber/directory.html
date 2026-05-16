@@ -8,10 +8,13 @@
     <meta name="description" content="Chamber of Commerce Directory for White Rock, New Mexico">
     <meta name="author" content="Hugh Roper">
 
-    <link href="styles/" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
 
-    <script src="scripts/" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/members.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +30,70 @@
 
 <body>
 
+    <header>
+
+        <div>
+
+            <img src="images/wr-chamber-logo.png" alt="" class="logo" width="48">
+
+            <h1>White Rock Chamber of&nbsp;Commerce</h1>
+
+            <button id="menu" aria-label="Menu"></button>
+
+            <nav class="navigation">
+
+                <a href="index.html">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html">Discover</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <h1>Directory</h1>
+
+        <section id="members"></section>
+
+    </main>
+
+    <footer>
+
+        <div>
+
+            <div class="address">
+
+                <h4>White Rock Chamer of Commerce</h4>
+                <p>123 Rover Blvd.</p>
+                <p>White Rock, NM 87547</p>
+                <p><a href="mailto:chamber@whiterocknewmexico.com">Chamber@WhiteRockNewMexico.com</a></p>
+
+            </div>
+
+            <div class="social">
+
+                <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/"><img src="images/linkedin.svg" alt="Linkedin"></a>
+                <a href="https://x.com/"><img src="images/twitter-x.svg" alt="X"></a>
+
+            </div>
+
+            <div class="about">
+
+                <h4>WDD231 Class Project</h4>
+                <p>Hugh Roper</p>
+                <p>© <span id="currentYear"></span> White Rock Chamber of Commerce</p>
+                <p>Last Modified: <span id="lastModified">01/19/2026 13:09:53</span></p>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 
 </body>

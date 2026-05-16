@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Company Name 1",
+        "address": "Company Address",
+        "phone": "Company Phone Number",
+        "website": "images/wr-chamber-logo.png",
+        "image": "company1.webp",
+        "membershipLevel": 1,
+        "description": "Description"
+    },
+    {
+        "name": "Company Name 2",
+        "address": "Company Address",
+        "phone": "Company Phone Number",
+        "website": "images/wr-chamber-logo.png",
+        "image": "company2.webp",
+        "membershipLevel": 2,
+        "description": "Description"
+    },
+    {
+        "name": "Company Name 3",
+        "address": "Company Address",
+        "phone": "Company Phone Number",
+        "website": "images/wr-chamber-logo.png",
+        "image": "company3.webp",
+        "membershipLevel": 3,
+        "description": "Description"
+    },
+    {
+        "name": "Company Name 4",
+        "address": "Company Address",
+        "phone": "Company Phone Number",
+        "website": "images/wr-chamber-logo.png",
+        "image": "company4.webp",
+        "membershipLevel": 1,
+        "description": "Description"
+    },
+    {
+        "name": "Company Name 5",
+        "address": "Company Address",
+        "phone": "Company Phone Number",
+        "website": "images/wr-chamber-logo.png",
+        "image": "company5.webp",
+        "membershipLevel": 2,
+        "description": "Description"
+    },
+    {
+        "name": "Company Name 6",
+        "address": "Company Address",
+        "phone": "Company Phone Number",
+        "website": "images/wr-chamber-logo.png",
+        "image": "company6.webp",
+        "membershipLevel": 3,
+        "description": "Description"
+    },
+    {
+        "name": "Company Name 7",
+        "address": "Company Address",
+        "phone": "Company Phone Number",
+        "website": "images/wr-chamber-logo.png",
+        "image": "company7.webp",
+        "membershipLevel": 1,
+        "description": "Description"
+    }
+]
