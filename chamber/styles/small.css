@@ -109,6 +109,12 @@ main section img {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
+button img {
+    width: 24px;
+    display: block;
+    margin: 0 auto;
+}
+
 button.grid,
 button.list {
     appearance: none;
@@ -119,7 +125,6 @@ button.list {
     height: 48px;
     font-size: 1.5rem;
     line-height: 2em;
-    color: #0162c9;
     margin-right: 0.5rem;
 }
 
@@ -127,7 +132,6 @@ button.grid:hover,
 button.list:hover {
     background-color: #fff;
     border: 1px solid #004997;
-    color: #004997;
 }
 
 
