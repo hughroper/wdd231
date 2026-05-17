@@ -97,7 +97,7 @@ main h1 {
     font-weight: 600;
 }
 
-main section img {
+main div#members img {
     display: block;
     width: 128px;
 }
@@ -250,13 +250,13 @@ footer {
     flex-direction: row;
 }
 
-footer h4,
+footer h2,
 footer p {
     margin: 0;
     line-height: 1.4em;
 }
 
-footer .address h4 {
+footer .address h2 {
     color: #004997;
 }
 
@@ -288,6 +288,6 @@ footer .about {
     color: #777;
 }
 
-footer .about h4 {
+footer .about h2 {
     color: #0162c9;
 }
