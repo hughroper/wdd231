@@ -129,8 +129,8 @@ button.list {
     margin-right: 0.5rem;
 }
 
-button.grid:hover,
-button.list:hover {
+button.list:hover,
+button.grid:hover {
     background-color: #fff;
     border: 1px solid #004997;
 }
