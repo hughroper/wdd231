@@ -216,12 +216,6 @@ button.list:hover {
     color: #666;
 }
 
-#members article p:nth-child(3),
-#members article p:nth-child(6) {
-    font-size: 1rem;
-    color: #666;
-}
-
 #members article p:nth-child(7) {
     font-size: 0.7rem;
     color: #666;
@@ -286,9 +280,7 @@ footer .address a {
     border-color: #0162c9;
 }
 
-footer .about {
-    color: #777;
-}
+footer .about {}
 
 footer .about h2 {
     color: #0162c9;
