@@ -17,15 +17,16 @@ header {
     background-color: #e8f2fb;
 }
 
-header div {
+header>div {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     gap: 0;
 }
 
-h1 {
+div.chamber {
     font-size: 1.5rem;
     margin-top: 0;
+    font-weight: bold;
 }
 
 img.logo {}
