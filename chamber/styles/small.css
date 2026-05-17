@@ -258,6 +258,7 @@ footer p {
 
 footer .address h2 {
     color: #004997;
+    font-size: 1.25rem;
 }
 
 footer .address a {
@@ -290,4 +291,5 @@ footer .about {
 
 footer .about h2 {
     color: #0162c9;
+    font-size: 1.25rem;
 }
