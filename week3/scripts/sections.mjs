@@ -1,6 +1,6 @@
-function setSectionSelection() {
+export function setSectionSelection() {
     const sectionSelect = document.querySelector("#sectionNumber");
-    sections.forEach((section) => {
+    byuiCourse.sections.forEach((section) => {
         const option = document.createElement("option");
         option.value = section.sectionNumber;
         option.textContent = `${section.sectionNumber}`;
@@ -8,4 +8,3 @@ function setSectionSelection() {
     });
 }
 
-export function setSectionSelection(sections) { ... }
