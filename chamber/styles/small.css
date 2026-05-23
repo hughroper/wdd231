@@ -318,7 +318,7 @@ body.home h1 {
     margin: 1rem 0 0 0;
 }
 
-body.home .events-weather div {
+body.home .events-weather>div {
     background-color: #fff;
     box-shadow: 0px 4px 12px #ddd;
 }
@@ -331,9 +331,53 @@ body.home .events-weather div h2 {
     font-weight: 400;
 }
 
-body.home .events-weather div p {
+body.home .events-weather>div p {
     margin: 1rem;
-    border: 1px solid red;
+    font-size: 1.25rem;
+}
+
+body.home .events-weather .weather-current p {
+    margin: 1rem 1rem 0 1rem;
+}
+
+body.home .events-weather .weather-current p span {
+    font-weight: bold;
+}
+
+body.home .events-weather .weather-current figure {
+    margin-left: 1rem;
+    font-size: 1.25em;
+    margin: 0.5rem 1rem 0 1rem;
+}
+
+body.home .weather-current img#weather-icon {
+    width: 10rem;
+}
+
+body.home .events-weather .weather-current figure figcaption {
+    text-transform: capitalize;
+}
+
+body.home .weather-forecast #forecast h3 {
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.25rem;
+    clear: both;
+    color: #004997;
+}
+
+body.home .weather-forecast #forecast img {
+    width: 5rem;
+    margin: 0 0.5rem 0 0.5rem;
+    float: left;
+}
+
+body.home .weather-forecast #forecast p:nth-child(3) {
+    font-weight: bold;
+}
+
+body.home .weather-forecast #forecast p {
+    margin: 0 1rem 0 1rem;
+    text-transform: capitalize;
 }
 
 body.home #members article:nth-child(n+4):nth-child(-n+7) {
