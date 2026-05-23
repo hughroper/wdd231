@@ -295,21 +295,24 @@ body.home .hero img {
     width: 100%;
 }
 
-body.home .hero button {
+body.home .hero a.join {
+    display: block;
     font-size: 1.5rem;
     appearance: none;
     border: none;
     padding: 1rem;
     background-color: #0162c9;
     color: #fff;
-}
-
-body.home .hero button {
-    /* Come back and revisit how this is positioned */
     position: relative;
     float: right;
     margin-top: -6rem;
     margin-right: 2rem;
+    text-decoration: none;
+}
+
+body.home .hero a.join:hover {
+    color: #004997;
+    background-color: #fff;
 }
 
 body.home h1 {
@@ -321,6 +324,16 @@ body.home h1 {
 body.home .events-weather>div {
     background-color: #fff;
     box-shadow: 0px 4px 12px #ddd;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+body.home .events-weather>div:first-child {
+    margin-top: 0;
+}
+
+body.home .events-weather>div:last-child {
+    padding-bottom: 2rem;
 }
 
 body.home .events-weather div h2 {
@@ -331,7 +344,8 @@ body.home .events-weather div h2 {
     font-weight: 400;
 }
 
-body.home .events-weather>div p {
+body.home .events-weather>div p,
+body.home .events-weather>div ul {
     margin: 1rem;
     font-size: 1.25rem;
 }
@@ -378,6 +392,10 @@ body.home .weather-forecast #forecast p:nth-child(3) {
 body.home .weather-forecast #forecast p {
     margin: 0 1rem 0 1rem;
     text-transform: capitalize;
+}
+
+body.home #members {
+    clear: both;
 }
 
 /* body.home #members article:nth-child(n+4):nth-child(-n+7) {

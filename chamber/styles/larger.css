@@ -82,6 +82,10 @@
 
 
 
+    body.home .events-weather>div {
+        margin-top: 0;
+    }
+
     body.home .events-weather {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
