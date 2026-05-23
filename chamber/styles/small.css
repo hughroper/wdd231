@@ -380,6 +380,6 @@ body.home .weather-forecast #forecast p {
     text-transform: capitalize;
 }
 
-body.home #members article:nth-child(n+4):nth-child(-n+7) {
+/* body.home #members article:nth-child(n+4):nth-child(-n+7) {
     display: none;
-}
+} */
