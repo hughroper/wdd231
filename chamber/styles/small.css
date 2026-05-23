@@ -83,6 +83,10 @@ button#menu {
     background-color: #002a57;
 }
 
+body.home .navigation a.home {
+    color: #002a57;
+}
+
 
 
 
@@ -283,4 +287,55 @@ footer .about {}
 footer .about h2 {
     color: #0162c9;
     font-size: 1.25rem;
+}
+
+
+
+body.home .hero img {
+    width: 100%;
+}
+
+body.home .hero button {
+    font-size: 1.5rem;
+    appearance: none;
+    border: none;
+    padding: 1rem;
+    background-color: #0162c9;
+    color: #fff;
+}
+
+body.home .hero button {
+    /* Come back and revisit how this is positioned */
+    position: relative;
+    float: right;
+    margin-top: -6rem;
+    margin-right: 2rem;
+}
+
+body.home h1 {
+    color: #0162c9;
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+}
+
+body.home .events-weather div {
+    background-color: #fff;
+    box-shadow: 0px 4px 12px #ddd;
+}
+
+body.home .events-weather div h2 {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background-color: #0162c9;
+    color: #fff;
+    font-weight: 400;
+}
+
+body.home .events-weather div p {
+    margin: 1rem;
+    border: 1px solid red;
+}
+
+body.home #members article:nth-child(n+4):nth-child(-n+7) {
+    display: none;
 }

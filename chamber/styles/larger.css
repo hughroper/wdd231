@@ -81,4 +81,11 @@
     }
 
 
+
+    body.home .events-weather {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 1rem;
+    }
+
 }

@@ -1,4 +1,4 @@
-const url = "data/members.json";
+const membersURL = "data/members.json";
 
 const members = document.querySelector("#members");
 
@@ -12,7 +12,7 @@ const members = document.querySelector("#members");
 // getProphetData();
 
 async function getMemberData() {
-    const response = await fetch(url);
+    const response = await fetch(membersURL);
     const data = await response.json();
 
     displayMembers(data);
@@ -59,21 +59,21 @@ const displayMembers = (memberList) => {
 getMemberData();
 
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
+// const gridbutton = document.querySelector("#grid");
+// const listbutton = document.querySelector("#list");
 const display = document.querySelector("#members");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
-gridbutton.addEventListener("click", () => {
-    // example using arrow function
-    display.classList.add("grid");
-    display.classList.remove("list");
-});
+// gridbutton.addEventListener("click", () => {
+//     // example using arrow function
+//     display.classList.add("grid");
+//     display.classList.remove("list");
+// });
 
-listbutton.addEventListener("click", showList); // example using defined function
+// listbutton.addEventListener("click", showList); // example using defined function
 
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
-}
+// function showList() {
+//     display.classList.add("list");
+//     display.classList.remove("grid");
+// }
