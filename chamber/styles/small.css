@@ -83,7 +83,10 @@ button#menu {
     background-color: #002a57;
 }
 
-body.home .navigation a.home {
+body.home .navigation a.home,
+body.directory .navigation a.directory,
+body.join .navigation a.join,
+body.discover .navigation a.discover {
     color: #002a57;
 }
 
