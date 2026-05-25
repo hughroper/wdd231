@@ -92,4 +92,10 @@
         gap: 1rem;
     }
 
+    body.home .hero a.join {
+        float: right;
+        margin-top: -6rem;
+        margin-right: 2rem;
+    }
+
 }
