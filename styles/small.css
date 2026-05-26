@@ -229,3 +229,42 @@ footer p {
     margin: 0;
     padding: 1rem;
 }
+
+
+dialog {
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 600px;
+    font-size: 1rem;
+    border: 0;
+}
+
+::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog h2 {
+    font-size: 1.25rem;
+}
+
+dialog button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.65rem;
+    background-color: #e8f2fb;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0;
+}
+
+dialog button:focus {
+    outline: none;
+}
+
+dialog button:hover {
+    background-color: #fff;
+}

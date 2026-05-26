@@ -91,6 +91,12 @@ function displayCourses(filteredCourses) {
 
         card.textContent = `${course.subject} ${course.number}`;
 
+        card.addEventListener('click', () => {
+
+            displayCourseDetails(course);
+
+        });
+
         if (course.completed) {
             card.classList.add("completed");
         }
