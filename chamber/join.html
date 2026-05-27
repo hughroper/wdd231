@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Rock Chamber of Commerce Member Directory</title>
+    <meta name="description"
+        content="Chamber of Commerce Business Directory for White Rock, New Mexico lists contributing members.">
+    <meta name="author" content="Hugh Roper">
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="White Rock Chamber of Commerce Directory">
+    <meta property="og:description" content="Listing of Member Buinesses in the White Rock Chamber of Commerce">
+    <meta property="og:url" content="https://hughroper.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://hughroper.github.io/wdd231/chamber/images/wr-chamber-logo.png">
+
+</head>
+
+<body class="join">
+
+    <header>
+
+        <div>
+
+            <img src="images/wr-chamber-logo.png" alt="" class="logo" width="48">
+
+            <div class="chamber">White Rock Chamber of&nbsp;Commerce</div>
+
+            <button id="menu" aria-label="Menu"></button>
+
+            <nav class="navigation">
+
+                <a href="index.html" class="home">Home</a>
+                <a href="directory.html" class="directory">Directory</a>
+                <a href="join.html" class="join active">Join</a>
+                <a href="discover.html" class="discover">Discover</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <h1>Benefit of Joining the Chamber</h1>
+
+        <div>
+
+            <section id="form">
+                <form action="thankyou.html" method="get">
+
+                    <label for="firstname">First Name</label>
+                    <input name="firstname" id="Enter a last name" title="First Name" type="text"
+                        autocomplete="given-name" required>
+
+                    <label for="lastname">Last Name</label>
+                    <input name="lastname" id="Enter a last name" title="Last Name" type="text"
+                        autocomplete="family-name" required>
+
+                    <label for="organization">Organization</label>
+                    <input name="organization" title="Only letters, spaces, and hyphens allowed. Minimum 7 characters."
+                        type="text" autocomplete="organization-title" pattern="^[A-Za-z\s-]{7,}$" required>
+
+                    <label for="email">Email</label>
+                    <input name="email" id="email" title="Enter a valid email address." type="email"
+                        placeholder="email@example.com" required>
+
+                    <label for="phone">Mobile Phone</label>
+                    <input name="phone" id="phone" title="Enter a valid email address." type="tel" autocomplete="tel"
+                        required>
+
+                    <fieldset>
+                        <legend>Membership Level</legend>
+                        <label for="np"><input type="radio" id="np" name="membership" value="np"> Non Profit
+                            Membership (no fee)</label>
+                        <label for="bronze"><input type="radio" id="bronze" name="membership" value="bronze">
+                            Bronze Membership</label>
+                        <label for="silver"><input type="radio" id="silver" name="membership" value="silver">
+                            Silver Membership</label>
+                        <label for="gold"><input type="radio" id="gold" name="membership" value="gold"> Gold
+                            Membership</label>
+                        </select>
+                    </fieldset>
+
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description"
+                        title="Enter a description of the business or organization."></textarea>
+
+                    <input type="hidden" name="timestamp" id="timestamp">
+
+                    <input type="submit" name="submit" value="Join the Chamber">
+
+                </form>
+            </section>
+
+            <section id="levels">
+                Levels
+            </section>
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <div>
+
+            <div class="address">
+
+                <h2>White Rock Chamber of Commerce</h2>
+                <p>123 Rover Blvd.</p>
+                <p>White Rock, NM 87547</p>
+                <p><a href="mailto:chamber@whiterocknewmexico.com">Chamber@WhiteRockNewMexico.com</a></p>
+
+            </div>
+
+            <div class="social">
+
+                <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/"><img src="images/linkedin.svg" alt="Linkedin"></a>
+                <a href="https://x.com/"><img src="images/twitter-x.svg" alt="X"></a>
+
+            </div>
+
+            <div class="about">
+
+                <h2>WDD231 Class Project</h2>
+                <p>Hugh Roper</p>
+                <p>© <span id="currentYear"></span> White Rock Chamber of Commerce</p>
+                <p>Last Modified: <span id="lastModified">01/19/2026 13:09:53</span></p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

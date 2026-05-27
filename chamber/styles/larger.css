@@ -98,4 +98,15 @@
         margin-right: 2rem;
     }
 
+    body.join main div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+    }
+
+    /* body.join section#form, */
+    body.join section#levels {
+        border: 1px solid red;
+    }
+
 }
