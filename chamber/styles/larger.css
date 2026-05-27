@@ -109,4 +109,9 @@
         border: 1px solid red;
     }
 
+    body.join section#levels div {
+        display: block;
+    }
+
+
 }
