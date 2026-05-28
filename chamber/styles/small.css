@@ -173,7 +173,7 @@ button.grid:hover {
 }
 
 #members.list article img {
-    display: block;
+    display: none;
     float: right;
     margin-left: 1rem;
     width: 60px;
@@ -184,10 +184,6 @@ button.grid:hover {
 }
 
 #members.list article {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: top; */
     padding: 1rem;
 }
 
@@ -196,9 +192,6 @@ button.grid:hover {
 #members.list article a {
     display: block;
     font-size: 1rem;
-    /* padding: 1rem; */
-    /* display: block; */
-    /* border: 1px solid red; */
     margin: 0 0 0.5rem 0;
 }
 
@@ -396,10 +389,6 @@ body.home .weather-forecast #forecast p {
 body.home #members {
     clear: both;
 }
-
-/* body.home #members article:nth-child(n+4):nth-child(-n+7) {
-    display: none;
-} */
 
 label,
 legend {
