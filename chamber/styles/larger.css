@@ -98,20 +98,29 @@
         margin-right: 2rem;
     }
 
+    body.join #levels h2 {
+        margin-top: 0;
+    }
+
     body.join main div {
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 1rem;
     }
 
-    /* body.join section#form, */
-    body.join section#levels {
-        border: 1px solid red;
+    body.join section#levels div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    body.join section#levels div.cards div {
+        padding: 3rem 1rem;
+        margin-bottom: 0;
     }
 
     body.join section#levels div {
         display: block;
     }
-
 
 }

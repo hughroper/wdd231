@@ -454,3 +454,85 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #004997;
 }
+
+body.join form {
+    padding: 1rem;
+    border: 1px solid #afd6f8;
+    background-color: #e8f2fb;
+    border-radius: 0.25rem;
+}
+
+body.join h1 {
+    margin: 0 0 1rem 0;
+}
+
+body.join h2 {
+    margin-top: 0;
+    color: #0162c9;
+}
+
+body.join #levels div.cards div {
+    border: 1px solid #0162c9;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #afd6f8;
+    border-radius: 0.25rem;
+}
+
+body.join #levels h2 {
+    margin-top: 1rem;
+    color: #004997;
+}
+
+body.join #levels div h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+body.join #levels div div.np {
+    background: linear-gradient(105deg, white, #afd6f8);
+    border: 1px solid #afd6f8;
+}
+
+body.join #levels div div.np h3,
+body.join #levels div div.np button {
+    color: #004997;
+}
+
+body.join #levels div div.bronze {
+    background: linear-gradient(105deg, white, #da9e62);
+    border: 1px solid #da9e62;
+}
+
+body.join #levels div div.bronze h3,
+body.join #levels div div.bronze button {
+    color: #8b4e11;
+}
+
+body.join #levels div div.silver {
+    background: linear-gradient(105deg, white, silver);
+    border: 1px solid silver;
+}
+
+body.join #levels div div.silver h3,
+body.join #levels div div.silver button {
+    color: #4c4c4c;
+}
+
+body.join #levels div div.gold {
+    background: linear-gradient(105deg, white, burlywood);
+    border: 1px solid burlywood;
+}
+
+body.join #levels div div.gold h3,
+body.join #levels div div.gold button {
+    color: rgb(146, 107, 55);
+}
+
+body.join section#levels div.cards button {
+    background: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1.15rem;
+}
