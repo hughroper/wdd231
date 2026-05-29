@@ -469,6 +469,11 @@ body.join #levels div.cards div {
     border-radius: 0.25rem;
 }
 
+body.join #levels div.cards div p {
+    text-align: left;
+    margin: 1rem;
+}
+
 body.join #levels h2 {
     margin-top: 1rem;
     color: #004997;
@@ -479,44 +484,108 @@ body.join #levels div h3 {
     font-size: 1.5rem;
 }
 
+body.join #levels div div button {
+    border-radius: 0.25rem;
+}
+
 body.join #levels div div.np {
-    background: linear-gradient(105deg, white, #afd6f8);
+    background: linear-gradient(105deg, #fff, #afd6f8);
     border: 1px solid #afd6f8;
+    background-size: 100% 100%;
+    background-position: left center;
+    transition: all 0.5s;
+}
+
+body.join #levels div div.np:hover {
+    background-size: 200% 200%;
+    background-position: right center;
 }
 
 body.join #levels div div.np h3,
 body.join #levels div div.np button {
     color: #004997;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+body.join #levels div div.np button:hover {
+    background-color: #004997;
+    color: #fff;
 }
 
 body.join #levels div div.bronze {
     background: linear-gradient(105deg, white, #da9e62);
     border: 1px solid #da9e62;
+    background-size: 100% 100%;
+    background-position: left center;
+    transition: all 0.5s;
+}
+
+body.join #levels div div.bronze:hover {
+    background-size: 200% 200%;
+    background-position: right center;
 }
 
 body.join #levels div div.bronze h3,
 body.join #levels div div.bronze button {
     color: #8b4e11;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+body.join #levels div div.bronze button:hover {
+    background-color: #8b4e11;
+    color: #fff;
 }
 
 body.join #levels div div.silver {
     background: linear-gradient(105deg, white, silver);
     border: 1px solid silver;
+    background-size: 100% 100%;
+    background-position: left center;
+    transition: all 0.5s;
+}
+
+body.join #levels div div.silver:hover {
+    background-size: 200% 200%;
+    background-position: right center;
 }
 
 body.join #levels div div.silver h3,
 body.join #levels div div.silver button {
     color: #4c4c4c;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+body.join #levels div div.silver button:hover {
+    background-color: #4c4c4c;
+    color: #fff;
 }
 
 body.join #levels div div.gold {
     background: linear-gradient(105deg, white, burlywood);
     border: 1px solid burlywood;
+    background-size: 100% 100%;
+    background-position: left center;
+    transition: all 0.5s;
+}
+
+body.join #levels div div.gold:hover {
+    background-size: 200% 200%;
+    background-position: right center;
 }
 
 body.join #levels div div.gold h3,
 body.join #levels div div.gold button {
     color: rgb(146, 107, 55);
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+
+body.join #levels div div.gold button:hover {
+    background-color: rgb(146, 107, 55);
+    color: #fff;
 }
 
 body.join section#levels div.cards button {
@@ -524,4 +593,28 @@ body.join section#levels div.cards button {
     border: none;
     padding: 1rem;
     font-size: 1.15rem;
+}
+
+dialog {
+    width: 60%;
+    padding: 2rem;
+    border: 1px solid #666;
+}
+
+dialog h4 {
+    margin: 0;
+}
+
+dialog button {
+    padding: 1rem;
+    appearance: none;
+    background-color: #eee;
+    border: 1px solid #999;
+}
+
+dialog button:before {
+    content: "❌";
+    font-size: 0.8rem;
+    line-height: 0.9em;
+    margin-right: 0.5rem;
 }

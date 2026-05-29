@@ -122,21 +122,34 @@
 
                     <div class="np">
                         <h3>Non Profit Membership Level</h3>
+                        <p>Non-Profit Membership is available to qualifying charitable, educational, and community
+                            service organizations. This
+                            membership helps local non-profits connect with businesses and residents while promoting
+                            their mission.</p>
                         <button onclick="membershipNpDetails.showModal()">Learn More</button>
                     </div>
 
                     <div class="bronze">
                         <h3>Bronze Membership Level</h3>
+                        <p>Bronze Membership is an affordable option for small businesses, entrepreneurs, and
+                            organizations looking to establish a
+                            presence within the chamber and connect with the local business community.</p>
                         <button onclick="membershipBronzeDetails.showModal()">Learn More</button>
                     </div>
 
                     <div class="silver">
                         <h3>Silver Membership Level</h3>
+                        <p>Silver Membership is designed for businesses that want increased visibility and additional
+                            opportunities to promote
+                            their products and services within the community.</p>
                         <button onclick="membershipSilverDetails.showModal()">Learn More</button>
                     </div>
 
                     <div class="gold">
                         <h3>Gold Membership Level</h3>
+                        <p>Gold Membership is our premier membership level, offering maximum visibility, promotional
+                            opportunities, and access to
+                            exclusive chamber benefits.</p>
                         <button onclick="membershipGoldDetails.showModal()">Learn More</button>
                     </div>
 
@@ -146,12 +159,78 @@
 
         </div>
 
-        <dialog id="membershipNpDetails">NP Content<button onclick="membershipNpDetails.close()">Close</button></dialog>
-        <dialog id="membershipBronzeDetails">Bronze Content<button
-                onclick="membershipBronzeDetails.close()">Close</button></dialog>
-        <dialog id="membershipSilverDetails">Silver Content<button
-                onclick="membershipSilverDetails.close()">Close</button></dialog>
-        <dialog id="membershipGoldDetails">Gold Content<button onclick="membershipGoldDetails.close()">Close</button>
+        <dialog id="membershipNpDetails">
+            <h4>Non-Profit Membership</h4>
+            <p><strong>Annual Cost:</strong> No Fee</p>
+            <p>Benefits</p>
+            <ul>
+                <li>Basic chamber directory listing</li>
+                <li>Invitations to chamber networking events</li>
+                <li>Access to chamber training workshops and educational resources</li>
+                <li>Ability to submit community announcements for chamber publications</li>
+                <li>Participation in selected chamber programs and community initiatives</li>
+            </ul>
+            <h4>Ideal For</h4>
+            <p>Charitable organizations, schools, community groups, and other non-profit entities seeking visibility and
+                community
+                connections.</p>
+            <button onclick="membershipNpDetails.close()">Close</button>
+        </dialog>
+        <dialog id="membershipBronzeDetails">
+            <h4>Bronze Membership</h4>
+            <p><strong>Annual Cost:</strong> $100</p>
+            <p>Benefits</p>
+            <ul>
+                <li>Basic chamber directory listing</li>
+                <li>Access to chamber networking events and luncheons</li>
+                <li>Participation in chamber training workshops and educational programs</li>
+                <li>Inclusion in chamber newsletters and member communications</li>
+                <li>Opportunity to promote business announcements through chamber channels</li>
+                <li>Eligibility for member-only event discounts</li>
+            </ul>
+            <h4>Ideal For</h4>
+            <p>Small businesses, startups, sole proprietors, and organizations seeking affordable exposure and
+                networking opportunities
+                while building community connections.</p>
+            <button onclick="membershipBronzeDetails.close()">Close</button>
+        </dialog>
+        <dialog id="membershipSilverDetails">
+            <h4>Silver Membership</h4>
+            <p><strong>Annual Cost:</strong> $250</p>
+            <p>Benefits</p>
+            <ul>
+                <li>All Non-Profit Membership benefits</li>
+                <li>Enhanced directory listing with business description and logo</li>
+                <li>Featured placement in chamber newsletters and publications</li>
+                <li>Social media promotion through chamber channels</li>
+                <li>Discounts on chamber-sponsored events and training programs</li>
+                <li>Eligibility for periodic business spotlights on the chamber website homepage</li>
+                <li>Priority registration for chamber networking events and luncheons</li>
+            </ul>
+            <h4>Ideal For</h4>
+            <p>Growing businesses seeking greater exposure, professional development opportunities, and stronger
+                community engagement.</p>
+            <button onclick="membershipSilverDetails.close()">Close</button>
+        </dialog>
+        <dialog id="membershipGoldDetails">
+            <h4>Gold Membership</h4>
+            <p><strong>Annual Cost:</strong> $500</p>
+            <p>Benefits</p>
+            <ul>
+                <li>All Silver Membership benefits</li>
+                <li>Premium placement in the online member directory</li>
+                <li>Increased opportunities for homepage spotlight features</li>
+                <li>Additional social media promotions throughout the year</li>
+                <li>Exclusive sponsorship opportunities at chamber events</li>
+                <li>Enhanced advertising opportunities in chamber publications</li>
+                <li>Greater discounts on chamber events, training programs, and luncheons</li>
+                <li>Recognition as a Gold Member at chamber functions and community events</li>
+            </ul>
+            <h4>Ideal For</h4>
+            <p>Established businesses and organizations seeking the highest level of visibility, marketing support, and
+                community
+                leadership opportunities.</p>
+            <button onclick="membershipGoldDetails.close()">Close</button>
         </dialog>
 
     </main>
