@@ -495,6 +495,8 @@ body.join #levels div div.np {
     background-size: 100% 100%;
     background-position: left center;
     transition: all 0.5s;
+    animation: slide-down 1s ease-out backwards;
+    animation-delay: 0s;
 }
 
 body.join #levels div div.np:hover {
@@ -520,6 +522,8 @@ body.join #levels div div.bronze {
     background-size: 100% 100%;
     background-position: left center;
     transition: all 0.5s;
+    animation: slide-left 1s ease-out backwards;
+    animation-delay: 0.2s;
 }
 
 body.join #levels div div.bronze:hover {
@@ -545,6 +549,8 @@ body.join #levels div div.silver {
     background-size: 100% 100%;
     background-position: left center;
     transition: all 0.5s;
+    animation: slide-right 1s ease-out backwards;
+    animation-delay: 0.4s;
 }
 
 body.join #levels div div.silver:hover {
@@ -570,6 +576,8 @@ body.join #levels div div.gold {
     background-size: 100% 100%;
     background-position: left center;
     transition: all 0.5s;
+    animation: slide-up 1s ease-out backwards;
+    animation-delay: 0.6s;
 }
 
 body.join #levels div div.gold:hover {
@@ -600,6 +608,8 @@ body.join section {
     padding-bottom: 2rem;
 }
 
+
+
 dialog {
     width: 60%;
     padding: 2rem;
@@ -622,4 +632,52 @@ dialog button:before {
     font-size: 0.8rem;
     line-height: 0.9em;
     margin-right: 0.5rem;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-down {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
