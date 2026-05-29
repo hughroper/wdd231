@@ -438,6 +438,7 @@ input[type=submit] {
     color: #fff;
     border: 0;
     border-radius: 0.25rem;
+    transition: all 0.5s;
 }
 
 input[type=submit]:hover {
@@ -593,6 +594,10 @@ body.join section#levels div.cards button {
     border: none;
     padding: 1rem;
     font-size: 1.15rem;
+}
+
+body.join section {
+    padding-bottom: 2rem;
 }
 
 dialog {

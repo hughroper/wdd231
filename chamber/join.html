@@ -18,7 +18,7 @@
     <script src="scripts/date.js" defer></script>
     <!-- <script src="scripts/members.js" defer></script> -->
     <!-- <script src="scripts/form.js" defer></script> -->
-    <script src="scripts/membership-modal.js" defer></script>
+    <script src="scripts/join-modal.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -126,7 +126,7 @@
                             service organizations. This
                             membership helps local non-profits connect with businesses and residents while promoting
                             their mission.</p>
-                        <button onclick="membershipNpDetails.showModal()">Learn More</button>
+                        <button id="openNP">Learn More</button>
                     </div>
 
                     <div class="bronze">
@@ -134,7 +134,7 @@
                         <p>Bronze Membership is an affordable option for small businesses, entrepreneurs, and
                             organizations looking to establish a
                             presence within the chamber and connect with the local business community.</p>
-                        <button onclick="membershipBronzeDetails.showModal()">Learn More</button>
+                        <button id="openBronze">Learn More</button>
                     </div>
 
                     <div class="silver">
@@ -142,7 +142,7 @@
                         <p>Silver Membership is designed for businesses that want increased visibility and additional
                             opportunities to promote
                             their products and services within the community.</p>
-                        <button onclick="membershipSilverDetails.showModal()">Learn More</button>
+                        <button id="openSilver">Learn More</button>
                     </div>
 
                     <div class="gold">
@@ -150,7 +150,7 @@
                         <p>Gold Membership is our premier membership level, offering maximum visibility, promotional
                             opportunities, and access to
                             exclusive chamber benefits.</p>
-                        <button onclick="membershipGoldDetails.showModal()">Learn More</button>
+                        <button id="openGold">Learn More</button>
                     </div>
 
                 </div>
@@ -174,7 +174,7 @@
             <p>Charitable organizations, schools, community groups, and other non-profit entities seeking visibility and
                 community
                 connections.</p>
-            <button onclick="membershipNpDetails.close()">Close</button>
+            <button id="closeNP">Close</button>
         </dialog>
         <dialog id="membershipBronzeDetails">
             <h4>Bronze Membership</h4>
@@ -192,7 +192,7 @@
             <p>Small businesses, startups, sole proprietors, and organizations seeking affordable exposure and
                 networking opportunities
                 while building community connections.</p>
-            <button onclick="membershipBronzeDetails.close()">Close</button>
+            <button id="closeBronze">Close</button>
         </dialog>
         <dialog id="membershipSilverDetails">
             <h4>Silver Membership</h4>
@@ -210,7 +210,7 @@
             <h4>Ideal For</h4>
             <p>Growing businesses seeking greater exposure, professional development opportunities, and stronger
                 community engagement.</p>
-            <button onclick="membershipSilverDetails.close()">Close</button>
+            <button id="closeSilver">Close</button>
         </dialog>
         <dialog id="membershipGoldDetails">
             <h4>Gold Membership</h4>
@@ -230,7 +230,7 @@
             <p>Established businesses and organizations seeking the highest level of visibility, marketing support, and
                 community
                 leadership opportunities.</p>
-            <button onclick="membershipGoldDetails.close()">Close</button>
+            <button id="closeGold">Close</button>
         </dialog>
 
     </main>
