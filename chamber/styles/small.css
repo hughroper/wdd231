@@ -445,6 +445,14 @@ input[type=submit]:hover {
     background-color: #004997;
 }
 
+input:required {
+    border-left: 4px solid rgb(179, 0, 0);
+}
+
+input:required:valid {
+    border-left: 4px solid rgb(1, 130, 1);
+}
+
 body.join form {
     padding: 1rem;
     border: 1px solid #afd6f8;
