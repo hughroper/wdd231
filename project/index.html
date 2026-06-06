@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description"
+        content="Explore classical harp lessons, performances, and upcoming events with Michele Roper, a classically trained harpist serving Los Alamos, New Mexico.">
+    <meta name="keywords"
+        content="classical harpist, harp lessons, harp teacher, Michele Roper, Los Alamos, New Mexico, classical harp, music lessons, harp performance, harp instructor, classical music">
+    <meta name="author" content="Hugh Roper">
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <!-- <link href="styles/larger.css" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://hughroper.github.io/wdd231/project/index.html">
+    <meta property="og:image" content="">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Site Name: Classical Harpist</h1>
+
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Purpose</h2>
+            <p>The purpose of this website is to introduce visitors to Michele Roper, a classically trained harpist and
+                instructor in New Mexico. The site will provide information about Michele’s musical background, upcoming
+                performances, and teaching opportunities. Visitors will be able to view a schedule of events, learn more
+                about the musician, and submit a form to join a student wait list. The website is intended to serve
+                current and prospective students as well as classical music enthusiasts interested in local
+                performances.</p>
+        </section>
+
+        <section>
+            <h2>Target Audience</h2>
+            <ul>
+                <li>Current harp students and their families</li>
+                <li>Prospective students interested in harp lessons</li>
+                <li>Parents researching music instruction opportunities</li>
+                <li>Classical music enthusiasts interested in local performances</li>
+                <li>Local educators, musicians, and arts organizations</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Color palette</h2>
+            <p><span class="color primary-color"></span> Primary Color: #6B4F3A</p>
+            <p><span class="color secondary-color"></span> Secondary Color: #C9A86A</p>
+            <p><span class="color background-color"></span> Background Color: #F8F5F0</p>
+            <p><span class="color text-color"></span> Text Color: #333333</p>
+        </section>
+
+        <section>
+            <h2>Typography</h2>
+            <h3>Heading Font: Source Sans 3 (Weight 200)</strong></h3>
+            <p>Used for page headings and section titles. The light font weight creates an elegant and refined
+                appearance that complements the classical harp theme.</p>
+            <h3>Body Font: Source Sans 3 (Weight 400)</strong></h3>
+            Used for paragraph text and general content. The regular weight provides clear readability while
+            maintaining a clean and professional look.</p>
+        </section>
+
+        <section>
+            <h2>Wireframes</h2>
+            <h3>Desktop Wireframe</h3>
+            <pre>+--------------------------------------------------+
+| LOGO        Home About Events Form               |
++--------------------------------------------------+
+|                                                  |
+| HERO IMAGE                                       |
+| Classical Harpist                                |
+| [Learn More]                                     |
+|                                                  |
++--------------------------+-----------------------+
+| Body                                             |
+|                                                  |
+| About Michele                                    |
+| Current Weather                                  |
+| Short Biography                                  |
+| Weather API Data                                 |
++--------------------------+-----------------------+
+|                                                  |
+| Upcoming Events                                  |
+| Event 1 Event 2 Event 3                          |
+|                                                  |
++--------------------------------------------------+
+| Join Wait List                                   |
+| [Contact Form]                                   |
++--------------------------------------------------+
+| FOOTER                                           |
++--------------------------------------------------+</pre>
+            <h3>Mobile Wireframe</h3>
+            <pre>+------------------+
+| LOGO             |
++------------------+
+| MENU             |
++------------------+
+| HERO IMAGE       |
+| Classical Harp   |
+| [Learn More]     |
++------------------+
+| About Michele    |
+| Short Intro      |
++------------------+
+| Upcoming Events  |
+| Event 1          |
+| Event 2          |
++------------------+
+| Current Weather  |
++------------------+
+| Join Wait List   |
+| [Contact Form]   |
++------------------+
+| FOOTER           |
++------------------+</pre>
+        </section>
+
+        <section>
+            <h2>Content plan</h2>
+            <h3>Home Page</h3>
+            <p>Introduction to Michele Roper, a classically trained harpist and instructor. This page will include a
+                brief
+                biography, highlights of upcoming events, current weather conditions, and links to other sections of the
+                website.
+            </p>
+
+            <h3>About Page</h3>
+            <p>Information about Michele's musical background, classical training, teaching philosophy, and involvement
+                in the local
+                arts community.</p>
+
+            <h3>Events Page</h3>
+            <p>A list of upcoming performances and events loaded from a local JSON file. Event information will include
+                dates,
+                locations, and descriptions.</p>
+
+            <h3>Student Wait List Page</h3>
+            <p>A form allowing prospective students to request information and join a wait list for future lesson
+                openings. A
+                thank-you page will confirm successful submission.</p>
+        </section>
+
+        <section>
+            <h2>SEO</h2>
+            <h3>Meta Description</h3>
+            <p>Explore classical harp lessons, performances, and upcoming events with Michele Roper, a classically
+                trained harpist serving Los Alamos, New Mexico.</p>
+            <h3>Keywords</h3>
+            <p>classical harpist, harp lessons, harp teacher, Michele Roper, Los Alamos, New Mexico, classical
+                harp, music lessons, harp performance, harp instructor, classical music</p>
+        </section>
+
+        <section>
+            <h2>Dynamic Elements/APIs</h2>
+            <p>The Events page will use JavaScript to load upcoming performances from a local JSON file. Each event will
+                include information such as the event name, date, location, and description.</p>
+
+            <p>The Home page will use a weather API to display current weather information for New Mexico. This will
+                help connect the site to the local area and meet the project requirement for using an external API.</p>
+
+            <p>The Student Wait List page will include a form where prospective students can submit their name, contact
+                information, and lesson interest. After submitting the form, users will be directed to a thank-you page.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
