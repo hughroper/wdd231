@@ -720,12 +720,14 @@ body.discover #cards div {
     padding: 0 1rem;
     line-height: 1em;
     grid-area: name;
+    color: #0162c9;
 }
 
 .discover div address {
     margin: 0.5rem 0 0 0;
     padding: 0 1rem;
     grid-area: address;
+    color: #002a57;
 }
 
 .discover div p {
