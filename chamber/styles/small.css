@@ -701,7 +701,7 @@ body.discover #cards section {
 }
 
 body.discover #cards div {
-    border: 1px solid red;
+    border: 1px solid #b8d7f2;
     min-width: 240px;
     padding: 0;
 
@@ -716,7 +716,7 @@ body.discover #cards div {
 }
 
 .discover div h2 {
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0.5rem 0;
     padding: 0 1rem;
     line-height: 1em;
     grid-area: name;
@@ -737,6 +737,15 @@ body.discover #cards div {
 .discover div button {
     margin: 1rem;
     grid-area: cta;
+    padding: 0.5rem 1rem;
+    background-color: #0162c9;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.discover div button:hover {
+    background-color: #002a57;
 }
 
 .discover div figure {
@@ -747,5 +756,4 @@ body.discover #cards div {
 .discover div figure img {
     width: 100%;
     height: auto;
-    border: 1px solid purple;
 }

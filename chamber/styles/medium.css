@@ -1,13 +1,24 @@
 @media screen and (min-width: 600px) {
 
     body.discover #cards div {
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
-            "name"
+            "name name"
             "photograph description"
             "photograph address"
-            "cta"
+            "cta cta"
         ;
     }
 
 
+    .discover div figure img {
+        filter: saturate(50%);
+        filter: contrast(50%);
+    }
+
+    .discover div figure img:hover {
+        filter: saturate(100%);
+        filter: contrast(100%);
+        transition: all 0.5s;
+    }
 }

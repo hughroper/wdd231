@@ -137,7 +137,10 @@
         background-color: rgba(0, 0, 0, 0.5);
     }
 
-
+    body.discover #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 
 }
