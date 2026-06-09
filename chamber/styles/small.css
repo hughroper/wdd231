@@ -699,3 +699,53 @@ body.discover #cards section {
     display: grid;
     gap: 0.5rem;
 }
+
+body.discover #cards div {
+    border: 1px solid red;
+    min-width: 240px;
+    padding: 0;
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "photograph"
+        "description"
+        "address"
+        "cta"
+    ;
+}
+
+.discover div h2 {
+    margin: 1rem 0 0 0;
+    padding: 0 1rem;
+    line-height: 1em;
+    grid-area: name;
+}
+
+.discover div address {
+    margin: 0.5rem 0 0 0;
+    padding: 0 1rem;
+    grid-area: address;
+}
+
+.discover div p {
+    margin: 0.5rem 0 0 0;
+    padding: 0 1rem;
+    grid-area: description;
+}
+
+.discover div button {
+    margin: 1rem;
+    grid-area: cta;
+}
+
+.discover div figure {
+    margin: 0;
+    grid-area: photograph;
+}
+
+.discover div figure img {
+    width: 100%;
+    height: auto;
+    border: 1px solid purple;
+}

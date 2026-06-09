@@ -5,7 +5,7 @@ import { places } from "../data/places.mjs";
 const cards = document.querySelector("#cards");
 
 places.forEach(place => {
-    const card = document.createElement("section");
+    const card = document.createElement("div");
 
     const name = document.createElement("h2");
     name.textContent = place.name;
@@ -27,9 +27,18 @@ places.forEach(place => {
     const description = document.createElement("p");
     description.textContent = place.description;
 
+
+
     const button = document.createElement("button");
+
     button.textContent = "Learn More";
 
-    card.append(name, figure, address, description, button);
+    button.addEventListener("click", () => {
+
+        window.open(place.url, "_blank");
+
+    });
+
+    card.append(figure, name, address, description, button);
     cards.appendChild(card);
 });

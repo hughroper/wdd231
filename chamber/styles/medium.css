@@ -1,1 +1,13 @@
-@media screen and (min-width: 641px) {}
+@media screen and (min-width: 600px) {
+
+    body.discover #cards div {
+        grid-template-areas:
+            "name"
+            "photograph description"
+            "photograph address"
+            "cta"
+        ;
+    }
+
+
+}
