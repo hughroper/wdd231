@@ -689,3 +689,13 @@ dialog button:before {
         opacity: 1;
     }
 }
+
+body.discover #cards {
+    display: grid;
+    gap: 1rem;
+}
+
+body.discover #cards section {
+    display: grid;
+    gap: 0.5rem;
+}
