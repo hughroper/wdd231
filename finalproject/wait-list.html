@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Michele Roper | Classical Harpist</title>
+    <meta name="description"
+        content="Explore classical harp lessons, performances, and upcoming events with Michele Roper, a classically trained harpist serving Los Alamos, New Mexico.">
+    <meta name="keywords"
+        content="classical harpist, harp lessons, harp teacher, Michele Roper, Los Alamos, New Mexico, classical harp, music lessons, harp performance, harp instructor, classical music">
+    <meta name="author" content="Hugh Roper">
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Michele Roper | Classical Harpist">
+    <meta property="og:description" content="Classical harp lessons and performances in Northern New Mexico.">
+    <meta property="og:url" content="https://hughroper.github.io/wdd231/project/index.html">
+    <meta property="og:image" content="images/.jpg">
+</head>
+
+<body>
+
+    <header>
+
+        <img src="images/Classical-Harpist.png" alt="Classical Harpist" width="48">
+
+        <h1>Classical Harpist</h1>
+
+        <button id="menu" aria-label="Menu"></button>
+
+    </header>
+
+    <nav>
+        <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="wait-list.html">Wait List</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+
+            <img src="images/michele-harp.webp" alt="Michele Roper performing on harp" width="1024" height="786">
+
+            <a href="wait-list.html">Join the Wait List</a>
+
+        </section>
+
+        <section class="form">
+            <h2>Join Wait List</h2>
+
+            <form action="thankyou.html" method="get">
+
+                <label for="firstname">First Name</label>
+                <input name="firstname" id="firstname" title="Enter a first name" type="text" autocomplete="given-name"
+                    required>
+
+                <label for="lastname">Last Name</label>
+                <input name="lastname" id="lastname" title="Enter a last name" type="text" autocomplete="family-name"
+                    required>
+
+                <label for="email">Email</label>
+                <input name="email" id="email" title="Enter a valid email address." type="email" autocomplete="email"
+                    placeholder="email@example.com" required>
+
+                <label for="phone">Mobile Phone</label>
+                <input name="phone" id="phone" title="Enter a valid phone number." type="tel" autocomplete="tel"
+                    required>
+
+                <label for="age">Age</label>
+                <input name="age" id="age" title="Enter a age." type="number" autocomplete="tel" required>
+
+                <fieldset>
+                    <legend>Experience</legend>
+                    <label for="beginner"><input type="radio" id="beginner" name="experience" value="beginner" required>
+                        Beginner</label>
+                    <label for="intermediate"><input type="radio" id="intermediate" name="experience"
+                            value="intermediate">
+                        Intermediate</label>
+                    <label for="advanced"><input type="radio" id="advanced" name="experience" value="advanced">
+                        Advanced</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Interest</legend>
+                    <label for="piano"><input type="radio" id="piano" name="interest" value="piano" required>
+                        Piano</label>
+                    <label for="harp"><input type="radio" id="harp" name="interest" value="harp">
+                        Harp</label>
+                </fieldset>
+
+                <label for="question">Questions</label>
+                <textarea name="question" id="question" title="Ask a quesion."></textarea>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                <input type="submit" name="submit" value="Add to Wait List">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="wait-list.html">Wait List</a>
+        </nav>
+
+        <section>
+            <p>© <span id="currentYear"></span> <span class="separator"> | </span> Hugh Roper <span class="separator"> |
+                </span> New
+                Mexico</p>
+            <p>Last Modified: <span id="lastModified">01/19/2026 13:09:53</span></p>
+            <p id="visited"></p>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

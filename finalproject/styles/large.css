@@ -1,0 +1,71 @@
+@media screen and (min-width: 1024px) {
+
+    body {
+        background-color: var(--text-color);
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: var(--background-color);
+    }
+
+    header button {
+        display: none;
+    }
+
+    nav {}
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+    }
+
+    .navigation a {
+        margin: 0;
+        border-right: 2px solid var(--secondary-color);
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .hero {
+        margin-top: 0rem;
+    }
+
+    .hero a {
+        float: right;
+        margin-top: -6rem;
+        margin-right: 2rem;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer {
+        background-color: var(--primary-color);
+        padding: 0;
+    }
+
+    footer nav {
+        background-color: var(--primary-color);
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    footer section {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+}

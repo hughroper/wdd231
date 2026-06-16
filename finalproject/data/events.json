@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Los Alamos Symphony Orchestra",
+        "date": "Saturday, July 18, 2026",
+        "time": "7:00 PM",
+        "location": "Crossroads Bible Church, Los Alamos, NM",
+        "description": "Featuring works by Copland, Dvořák, and Tchaikovsky",
+        "website": "https://www.losalamossymphony.com"
+    },
+    {
+        "name": "Los Alamos Community Winds Summer Concert",
+        "date": "Saturday, August 15, 2026",
+        "time": "7:00 PM",
+        "location": "Crossroads Bible Church, Los Alamos, NM",
+        "description": "Traditional band literature, movie themes, and patriotic favorites",
+        "website": "https://www.lacw.org"
+    },
+    {
+        "name": "White Rock Harp Ensemble Recital",
+        "date": "Sunday, September 20, 2026",
+        "time": "3:00 PM",
+        "location": "White Rock Baptist Church, White Rock, NM",
+        "description": "Classical, folk, and contemporary harp music performed by students and guest artists",
+        "website": ""
+    }
+]
