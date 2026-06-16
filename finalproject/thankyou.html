@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wait List | Classical Harpist</title>
+    <title>Thank you | Classical Harpist</title>
     <meta name="description"
         content="Explore classical harp lessons, performances, and upcoming events with Michele Roper, a classically trained harpist serving Los Alamos, New Mexico.">
     <meta name="keywords"
@@ -19,7 +19,7 @@
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/form.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,58 +65,8 @@
         </section>
 
         <section class="form">
-            <h2>Join Wait List</h2>
 
-            <form action="thankyou.html" method="get">
-
-                <label for="firstname">First Name</label>
-                <input name="firstname" id="firstname" title="Enter a first name" type="text" autocomplete="given-name"
-                    required>
-
-                <label for="lastname">Last Name</label>
-                <input name="lastname" id="lastname" title="Enter a last name" type="text" autocomplete="family-name"
-                    required>
-
-                <label for="email">Email</label>
-                <input name="email" id="email" title="Enter a valid email address." type="email" autocomplete="email"
-                    placeholder="email@example.com" required>
-
-                <label for="phone">Mobile Phone</label>
-                <input name="phone" id="phone" title="Enter a valid phone number." type="tel" autocomplete="tel"
-                    required>
-
-                <label for="age">Age</label>
-                <input name="age" id="age" title="Enter a age." type="number" required>
-
-                <fieldset>
-                    <legend>Experience</legend>
-                    <label for="beginner"><input type="radio" id="beginner" name="experience" value="beginner" required>
-                        Beginner</label>
-                    <label for="intermediate"><input type="radio" id="intermediate" name="experience"
-                            value="intermediate">
-                        Intermediate</label>
-                    <label for="advanced"><input type="radio" id="advanced" name="experience" value="advanced">
-                        Advanced</label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Interest</legend>
-                    <label for="piano"><input type="radio" id="piano" name="interest" value="piano" required>
-                        Piano</label>
-                    <label for="harp"><input type="radio" id="harp" name="interest" value="harp">
-                        Harp</label>
-                    <label for="both"><input type="radio" id="both" name="interest" value="both">
-                        Both</label>
-                </fieldset>
-
-                <label for="question">Questions</label>
-                <textarea name="question" id="question" title="Ask a quesion." rows="5"></textarea>
-
-                <input type="hidden" name="timestamp" id="timestamp">
-
-                <input type="submit" name="submit" value="Add to Wait List">
-
-            </form>
+            <div id="results"></div>
 
         </section>
 
