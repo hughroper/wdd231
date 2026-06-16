@@ -14,6 +14,7 @@ body {
 
 a {
     color: var(--primary-color);
+    overflow-wrap: break-word;
 }
 
 
