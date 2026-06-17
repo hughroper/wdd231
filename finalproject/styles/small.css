@@ -96,7 +96,6 @@ button#menu {
     display: block;
     font-size: 1.25rem;
     appearance: none;
-    border: none;
     padding: 1rem;
     background-color: var(--primary-color);
     color: #fff;
@@ -268,7 +267,6 @@ input[type=submit] {
     margin-top: 1.5rem;
     background-color: var(--primary-color);
     color: var(--background-color);
-    border: none;
     border-radius: 0.25rem;
     border: 1px solid var(--secondary-color);
 }
@@ -290,11 +288,6 @@ button img {
 
 button.grid,
 button.list {
-    display: none;
-}
-
-button.grid,
-button.list {
     appearance: none;
     background-color: #fff;
     border: 1px solid var(--primary-color);
@@ -303,6 +296,7 @@ button.list {
     font-size: 1.5rem;
     line-height: 2em;
     margin-right: 0.5rem;
+    display: none;
 }
 
 button.list:hover,
