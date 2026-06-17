@@ -5,7 +5,8 @@
         "time": "7:00 PM",
         "location": "Crossroads Bible Church, Los Alamos, NM",
         "description": "Featuring works by Copland, Dvořák, and Tchaikovsky",
-        "website": "https://www.losalamossymphony.com"
+        "website": "https://www.losalamossymphony.com",
+        "type": "orchestra"
     },
     {
         "name": "Los Alamos Community Winds Summer Concert",
@@ -13,7 +14,8 @@
         "time": "7:00 PM",
         "location": "Crossroads Bible Church, Los Alamos, NM",
         "description": "Traditional band literature, movie themes, and patriotic favorites",
-        "website": "https://www.lacw.org"
+        "website": "https://www.lacw.org",
+        "type": "recital"
     },
     {
         "name": "White Rock Harp Ensemble Recital",
@@ -21,6 +23,115 @@
         "time": "3:00 PM",
         "location": "White Rock Baptist Church, White Rock, NM",
         "description": "Classical, folk, and contemporary harp music performed by students and guest artists",
-        "website": ""
+        "website": "https://losalamossymphony.org",
+        "type": "community"
+    },
+    {
+        "name": "Autumn Harp Studio Recital",
+        "date": "Saturday, October 10, 2026",
+        "time": "4:00 PM",
+        "location": "Fuller Lodge, Los Alamos, NM",
+        "description": "Student performances featuring solo harp pieces and small ensemble music",
+        "website": "https://losalamossymphony.org",
+        "type": "orchestra"
+    },
+    {
+        "name": "Sacred Music Evening",
+        "date": "Sunday, October 25, 2026",
+        "time": "6:00 PM",
+        "location": "White Rock, NM",
+        "description": "A quiet evening of sacred harp arrangements and reflective music",
+        "website": "https://losalamossymphony.org",
+        "type": "recital"
+    },
+    {
+        "name": "Fall Community Concert",
+        "date": "Saturday, November 7, 2026",
+        "time": "7:00 PM",
+        "location": "Los Alamos, NM",
+        "description": "Local musicians perform classical and seasonal favorites",
+        "website": "https://losalamossymphony.org",
+        "type": "community"
+    },
+    {
+        "name": "Harp and Strings Chamber Concert",
+        "date": "Friday, November 20, 2026",
+        "time": "7:30 PM",
+        "location": "Santa Fe, NM",
+        "description": "An intimate chamber concert featuring harp, violin, and cello",
+        "website": "https://losalamossymphony.org",
+        "type": "orchestra"
+    },
+    {
+        "name": "Thanksgiving Harp Selections",
+        "date": "Wednesday, November 25, 2026",
+        "time": "5:30 PM",
+        "location": "White Rock, NM",
+        "description": "Warm seasonal music for a community Thanksgiving gathering",
+        "website": "https://losalamossymphony.org",
+        "type": "recital"
+    },
+    {
+        "name": "Holiday Harp Recital",
+        "date": "Saturday, December 5, 2026",
+        "time": "3:00 PM",
+        "location": "Los Alamos, NM",
+        "description": "A festive recital featuring Christmas carols and winter classics",
+        "website": "https://losalamossymphony.org",
+        "type": "community"
+    },
+    {
+        "name": "Winter Student Showcase",
+        "date": "Saturday, December 12, 2026",
+        "time": "2:00 PM",
+        "location": "White Rock, NM",
+        "description": "Students share prepared pieces in a friendly recital setting",
+        "website": "https://losalamossymphony.org",
+        "type": "orchestra"
+    },
+    {
+        "name": "Christmas Eve Prelude Music",
+        "date": "Thursday, December 24, 2026",
+        "time": "6:30 PM",
+        "location": "White Rock, NM",
+        "description": "Peaceful harp music before a Christmas Eve service",
+        "website": "https://losalamossymphony.org",
+        "type": "recital"
+    },
+    {
+        "name": "New Year Classical Harp Concert",
+        "date": "Saturday, January 9, 2027",
+        "time": "7:00 PM",
+        "location": "Los Alamos, NM",
+        "description": "A new year concert featuring classical harp favorites",
+        "website": "https://losalamossymphony.org",
+        "type": "community"
+    },
+    {
+        "name": "Valentine Harp Music",
+        "date": "Saturday, February 13, 2027",
+        "time": "6:00 PM",
+        "location": "Santa Fe, NM",
+        "description": "Romantic harp selections for a Valentine weekend event",
+        "website": "https://losalamossymphony.org",
+        "type": "orchestra"
+    },
+    {
+        "name": "Spring Harp Studio Recital",
+        "date": "Saturday, March 20, 2027",
+        "time": "4:00 PM",
+        "location": "White Rock, NM",
+        "description": "Spring recital featuring beginning and intermediate harp students",
+        "website": "https://losalamossymphony.org",
+        "type": "recital"
+    },
+    {
+        "name": "Community Arts Harp Performance",
+        "date": "Saturday, April 17, 2027",
+        "time": "1:00 PM",
+        "location": "Los Alamos, NM",
+        "description": "A casual daytime harp performance as part of a local arts event",
+        "website": "https://losalamossymphony.org",
+        "type": "community"
     }
 ]

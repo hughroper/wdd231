@@ -277,3 +277,108 @@ input[type=submit]:hover {
     color: #fff;
     background-color: var(--text-color);
 }
+
+.grid-menu {
+    margin-top: 1rem;
+}
+
+button img {
+    width: 24px;
+    display: block;
+    margin: 0 auto;
+}
+
+button.grid,
+button.list {
+    display: none;
+}
+
+button.grid,
+button.list {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    width: 48px;
+    height: 48px;
+    font-size: 1.5rem;
+    line-height: 2em;
+    margin-right: 0.5rem;
+}
+
+button.list:hover,
+button.grid:hover {
+    background-color: #fff;
+}
+
+div#events,
+div#events.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+div#events div {
+    background-color: #fff;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+}
+
+#events div h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#events div p {
+    margin: 0.25rem 0 0 0;
+    font-size: 1.15rem;
+}
+
+#events div p:nth-child(2) {
+    color: var(--primary-color);
+}
+
+#events div p:nth-child(3) {
+    color: var(--secondary-color);
+}
+
+#events div p:nth-child(4) {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+#events div p:nth-child(5) a {
+    color: var(--primary-color);
+    font-size: 1rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+#events div p:nth-child(5) a:hover {
+    color: var(--text-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.filter-menu {
+    margin-top: 1rem;
+}
+
+.filter-menu button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.filter-menu button.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.filter-menu button:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
