@@ -382,3 +382,37 @@ div#events div {
     background-color: var(--secondary-color);
     color: #fff;
 }
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+dialog {}
+
+dialog button {
+    font-size: 1rem;
+    appearance: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+}
+
+dialog p {
+    margin: 0;
+}
+
+dialog p:nth-child(2) {
+    margin-top: 1rem;
+}
+
+dialog p:nth-child(9) {
+    margin-bottom: 1rem;
+}
+
+dialog #editButton {
+    background-color: var(--secondary-color);
+}

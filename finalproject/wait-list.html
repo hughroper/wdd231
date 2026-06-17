@@ -68,7 +68,7 @@
         <section class="form">
             <h2>Join Wait List</h2>
 
-            <form action="thankyou.html" method="get">
+            <form id="waitListForm" action="thankyou.html" method="get">
 
                 <label for="firstname">First Name</label>
                 <input name="firstname" id="firstname" title="Enter a first name" type="text" autocomplete="given-name"
@@ -115,9 +115,23 @@
 
                 <input type="hidden" name="timestamp" id="timestamp">
 
-                <input type="submit" name="submit" value="Add to Wait List">
+                <input type="submit" value="Add to Wait List">
 
             </form>
+
+            <dialog id="confirmDialog">
+                <h2>Confirm Your Information</h2>
+                <p><strong>First Name:</strong> <span id="confirmFirstName"></span></p>
+                <p><strong>Last Name:</strong> <span id="confirmLastName"></span></p>
+                <p><strong>Email:</strong> <span id="confirmEmail"></span></p>
+                <p><strong>Phone:</strong> <span id="confirmPhone"></span></p>
+                <p><strong>Age:</strong> <span id="confirmAge"></span></p>
+                <p><strong>Experience:</strong> <span id="confirmExperience"></span></p>
+                <p><strong>Interest:</strong> <span id="confirmInterest"></span></p>
+                <p><strong>Questions:</strong> <span id="confirmQuestions"></span></p>
+                <button id="editButton" type="button">Edit</button>
+                <button id="confirmButton" type="button">Confirm</button>
+            </dialog>
 
         </section>
 
