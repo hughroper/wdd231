@@ -416,3 +416,7 @@ dialog p:nth-child(9) {
 dialog #editButton {
     background-color: var(--secondary-color);
 }
+
+footer p a {
+    color: #fff;
+}
